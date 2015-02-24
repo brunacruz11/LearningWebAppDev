@@ -53,12 +53,12 @@ footer {
 
 .left-side2 {
 	float: left;
-	width: 190px;
+	width: 180px;
 }
 
 .right-side2 {
 	float: right;
-	width: 95px;
+	width: 85px;
 }
 
 h1, h2, h3, h4 {
@@ -69,6 +69,7 @@ h1, h2, h3, h4 {
 
 p, li, a{
 	font-family: 'Droid Sans', sans-serif;
+	max-width: 500px;
 }
 
 h1{
@@ -96,6 +97,8 @@ h4{
 
 a, li{
 	font-weight: bold;
+	line-height: 20px;
+
 }
 
 a {
@@ -116,8 +119,14 @@ main img {
 	height: 350px;
 }
 
+main p{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
 p {
 	line-height: 20px;
+
 }
 
 .margin-text {
@@ -130,10 +139,22 @@ p {
 	font-style: italic;
 }
 
+ol {
+	list-style: decimal; 
+	padding-left: 2em;
+}
 
+ol li{
+	margin-top: 10px;
+}
 
+ol, ul{
+	text-align: justify;
+}
 
-
+.left-side p:last-child {
+	margin-bottom: 30px;
+}
 
 
 
