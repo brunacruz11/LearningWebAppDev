@@ -1,5 +1,6 @@
 body {
 	background: #f9e933;
+	font-size: 100%;
 }
 
 header, main, footer { 
@@ -64,8 +65,30 @@ p, li, a{
 	font-family: 'Droid Sans', sans-serif;
 }
 
+h1{
+	font-size: 2.5em;
+	font-weight: bold;
+	font-style: italic;
+}
 
+h2{
+	font-size: 1.8em;
+	font-weight: bold;
+}
 
+h3{
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+h4{
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+a, li{
+	font-weight: bold;
+}
 
 
 
