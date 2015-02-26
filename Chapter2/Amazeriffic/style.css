@@ -152,11 +152,13 @@ ol, ul{
 	text-align: justify;
 }
 
-.left-side p:last-child {
+.left-side li:last-child {
 	margin-bottom: 30px;
 }
 
-
+li.answer {
+	list-style: none;
+}
 
 
 
