@@ -52,7 +52,8 @@ var main = function () {
         var $element = $(element);
         var $content;
         var $button;
-        var $input;    
+        var $input;  
+
         
         $(".tabs a span").removeClass("active"); 
         $(element).addClass("active");
@@ -75,7 +76,6 @@ var main = function () {
             $("main .content").append($content);
 
         } else if ($element.parent().is(":nth-child(3)")) { 
-            console.log("THIRD TAB CLICKED!");
             $input = $("<input>");
             $button = $("<button>");
             $("main .content").append($input);
@@ -94,15 +94,30 @@ var main = function () {
             });
         
 
+        }   else if ($element.parent().is(":nth-child(4)")) {
+                $content = $("<ul>");
+                $content.append(("<li><p><a class='group4' href='images/1.png'>Screenshot 1</a></p></li>"));
+                $content.append(("<li><p><a class='group4' href='images/2.png'>Screenshot 2</a></p></li>"));
+                $content.append(("<li><p><a class='group4' href='images/3.png'>Screenshot 3</a></p></li>"));
+                $content.append(("<li><p><a class='group4' href='images/4.png'>Screenshot 4</a></p></li>"));
+                $("main .content").append($content);
+                
+                
         }
+
 
         return false;
 
         
         }); 
+
+    
     });
 
     $(".tabs a:first-child span").trigger("click");
+        
+    
+    
 };
 $(document).ready(main);
 

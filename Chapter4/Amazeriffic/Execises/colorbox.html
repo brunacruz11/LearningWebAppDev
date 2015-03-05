@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+		<title>Color Box</title> 
+		<link href="stylesheets/colorbox.css" rel="stylesheet" type="text/css">
+        <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+        <script src="javascripts/colorbox.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".group4").colorbox({rel:'group4', slideshow:true, width:"50%", height:"50%"});
+
+            });
+        </script> 
+	</head>
+	<body>
+		<header>
+			<h1>ColorBox Exercise</h1>
+		</header>
+        <main>
+        	<p><a class="group4" href="images/1.png">Screeshot 1</a></p>
+            <p><a class="group4" href="images/2.png">Screeshot 2</a></p>
+            <p><a class="group4" href="images/3.png">Screeshot 3</a></p>
+            <p><a class="group4" href="images/4.png">Screeshot 4</a></p>
+        </main>
+        <footer>
+        </footer>
+
+		 
+	</body>
+</html>

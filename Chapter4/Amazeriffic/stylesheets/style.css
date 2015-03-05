@@ -61,7 +61,7 @@ main .content input {
 .tabs a span { /*Why I need the <span> inside <a>? I cannot add the class 'active' into <a>?*/
 	display: inline-block;  /* why?*/
 	border-radius: 5px 5px 0 0; 
-	width: 100px;
+	width: 110px;
 	margin-right: 10px; 
 	text-align: center; 
 	background: #ddd;
